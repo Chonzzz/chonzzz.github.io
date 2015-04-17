@@ -1,0 +1,64 @@
+#bungkus {
+	margin: -8px;
+	width: auto;
+	min-height: 667px;
+	background-color: white;
+}
+#kotak {
+	padding: 8px;
+	margin: auto;
+	width: 800px;
+	min-height: 630px;
+	border: 2px solid black;
+	border-radius: 3px;
+	box-shadow: 0px 2px 2px 0px;
+}
+#menu a:link, #menu a:visited {
+	padding: 5px;
+	font-size: 20px;
+	font-family: "Aller";
+  text-decoration: none;
+	text-align: center;
+	color: #7A7A7A;
+	height: 28px;
+	transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	clear: both;
+}
+#menu a:active, #menu a:hover {
+	padding: 5px;
+	font-size: 20px;
+	font-family: "Aller";
+  text-decoration: none;
+	text-align: center;
+	color: white;
+	height: 28px;
+	transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	clear: both;
+}
+#header {
+	width: 800px;
+	height: 250px;
+	clear: both;
+}
+#isinya {
+	float: left;
+	height: 280px;
+	width: 200px;
+	padding: 2px;
+	text-decoration: none;
+	font-family: "Aller";
+	font-size: 30px;
+	border: 2px solid black;
+	color: #7A7A7A;
+}
+#isinya2 {
+	float: right;
+	height: 280px;
+	width: 580px;
+	padding: 2px;
+	border: 2px solid black;
+}
