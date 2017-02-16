@@ -1,42 +1,37 @@
 <html>
-	<head>
-		<title>Website Percobaan</title>
-		<link rel="stylesheet" type="text/css" href="gayaku.css">
-		<link rel="shortcut icon" href="">
-	</head>
+<head>
+<title>Rahma's Blog</title>
+<link rel="stylesheet" type="text/css" href="cssnya.css">
+
+</head>
 <body>
-	<div id="bungkus">
-		<div id="kotak">
-			<div id="menu">
-				<a href="index.html">Beranda</a>
-				<a href="profil.html">Profil</a>
-				<a href="kartun.html">Daftar Kartun</a>
-				<a href="staf.html">Daftar Pengurus</a>
-			</div><hr color="#7A7A7A">
-				<div id="header">
-				<img width="800px" height="250px" src="http://puu.sh/hgYTA/af74146fe1.png">
-			</div><hr color="#7A7A7A">
-			<div id="isinya">
-				> YasumiSubs<hr>
-				<p><text align=left><font size="2">
-			</div>
-			<div id="isinya2">
-				<font face="Arial">
-				<font size="4">Proyek Berjalan</font><hr>
-				<p><text align=left><font size="4">Garapan Musim Semi 2015</font><br><br>
-				<font size="2">
-				> Takamiya Nasuno Desu!<br>
-				> Owari no Seraph<br>
-				> Highschool DxD BorN<br>
-				> Re-Kan!<br>
-				</font><hr><font size="2">
-				<font size="4">BluRay</font><br><br>
-				> ISUCA<br>
-				> Shinmai Maou no Testament<br>
-				> Yuuki Yuuna wa Yuusha de Aru<br>
-				</p></font></font></text>
-			</div>
-		</div>
+<!--<body background="bg2.jpg" id="bodayyyyy">-->
+<div id="background">
+<div id="header">
+	<a class="title" id="top">Rahma's Blog</a>
 	</div>
+		<div id="menunya">
+		<a class="smoothScroll" href="#contact">Contact</a>
+		<a href="">About Me</a>
+		<a href="">Photos</a>
+		<a href="">Home</a>
+		</div>
+		
+<!-- Everything that you want smooth scrolling you should put that class -->
+<!-- Remember: that's because i changed the script -->
+<a class="smoothScroll" href="#contact">Click here to smooth scroll to the bottom of the page</a>
+<div class="content"></div>
+<h1 class="title">And here the content that the user will reach through the link<small>sorry for the bad english</small></h1>
+<!-- Always put the class="smoothScroll" -->
+<!-- Always make sure to put href="#some-local-id" -->
+<a class="smoothScroll" href="#top" id="contact">Click here to smooth scroll to the top of the page</a>
+<!-- Get jQuery down below so it can work properly -->
+<!-- You can get any other version, it's just an example -->
+<script src="jquery.min.js"></script>
+
+<!-- Change the speed of the scroll in the JS file. Follow the instructions there -->
+<script src="coba2.js"></script>
+
+</div>
 </body>
 </html>
